@@ -666,16 +666,20 @@ form:hover .form-button button{
     text-align: center;
     border-radius: 2px;
 }
-.imagegallery .icon li i{
+.imagegallery .icon li i,
+.user_profile .icon li i{
 	color:#fff;
 }
 
-.imagegallery .box17 .icon li a:hover  {
+.imagegallery .box17 .icon li a:hover,
+.user_profile .box17 .icon li a:hover
+  {
  
     background:#fff;
 
 }
-.imagegallery .box17 .icon li a:hover i  {
+.imagegallery .box17 .icon li a:hover i,
+.user_profile .box17 .icon li a:hover i  {
  
     color:#16c9f6;
     

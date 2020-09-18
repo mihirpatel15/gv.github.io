@@ -1,0 +1,827 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+	margin:0;padding: 0;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+li {list-style: none;}
+
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+}
+
+.navbar-nav  a{
+	color: #fff!important;
+}
+.navbar-nav .dropdown-menu  a{
+	color: #000000!important;
+}
+nav .fa{
+	color: #fff;
+}
+nav .notifi{
+	position: relative;
+	color: yellow;
+}
+.navbar-badge {
+    font-size: .6rem;
+    font-weight: 300;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+
+}
+
+.header-extradiv .extra-div h2, .servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+i{
+	color: #007bff;
+}
+
+.headings{
+	margin-bottom: 50px;
+}
+
+/***********actual css start*******************************/
+.header{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/main_header/analise-benevides-2uRmUPEq22k-unsplash.jpg ');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	clip-path: polygon(100% 0%,100% 100%,0% 100%,0% 0%);
+	position: relative;
+}
+
+.header:before{
+	content: "";
+	position: absolute; 
+	top: 0%;
+	bottom:0%;
+	left:0%;
+	right: 0%;
+	opacity: .2;
+	z-index: -1;
+    /*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/	
+}
+
+.navbar:before{
+	content: "";
+	top: 0%;
+	bottom:0%;
+	left:0%;
+	right: 0%;
+	opacity: 0.6;
+	z-index: -1;
+	position: absolute; 
+	/*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/	
+	background-color: #000000;
+}
+
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.header-section .center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);	
+	padding: 20px 8px;
+
+
+}
+
+.header-section .header_buttons a{
+	border:1px solid #ffff;
+	border-radius:100px;
+	padding: 0px 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #ffff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.header-section .header_buttons a:hover{
+	color: #50d1c0;
+	background: #ffff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.header-section .center-div p{
+	font-size: 1.3rem;
+	color: #ffff;
+	padding: 10px 0 20px 0;
+}
+
+/************extra header div start ******************************/
+.header-extradiv{
+	width: 100%;height: auto;
+	margin: 100px 0;  
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+.header-extradiv .extra-div{
+	background: #ffff;
+	border:medium none;
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.header-extradiv .extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+/************extra header div end ******************************/
+
+
+/************service offer css start ******************************/
+.serviceoffers{
+	width: 100%;
+	min-height: 100vh;
+	background: #f7f7f9;
+	padding: 50px 0 ;
+	/*margin-bottom: 50px ;*/
+}
+
+.headings h1 , .project-work h1{
+	font-size: 1.5rem;
+	font-weight:600;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+.serviceoffers .names h1{
+	color:#2e2e2e;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.serviceoffers .service-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.serviceoffers .progress{
+	height: 0.9rem!important;
+	margin-bottom: 25px!important;
+	background: #606060;
+}
+/************service offer css  end ******************************/
+
+
+/************award won start ******************************/
+.project-work{
+	width: 100%;
+	height: auto;
+	padding: 60px 5px;
+	
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+/************award won end ********************************/
+
+/************pricing css start********************************/
+.pricing{
+	width: 100%;
+	min-height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom:0%;
+	left:0%;
+	right: 0%;
+	z-index: -1;
+	background:linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+}
+.pricing .money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.pricing .card{
+	transition: 0.4s ease; 
+
+}
+.pricing .card-header{
+	font-size: 1.6rem;
+	font-weight:bold;
+	background: #fff!important;
+	padding: 25px 0px!important;
+}
+.pricing .card-body{
+	padding: 30px 0px!important;
+}
+.pricing .card-body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+}
+.pricing .card-footer{
+	background: white!important;
+	padding: 30px 0!important;
+}
+
+.pricing .card-footer a{
+	border:1px solid #50d1c0;
+	border-radius:100px;
+	padding: 0px 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.pricing .card:hover .card-footer a{
+	color: #ffff;
+	background: #50d1c0 ;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.pricing .card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover .card-header,.card:hover .money{
+	color: #50d1c0 ;
+}
+.pricing .card-second{
+	transform: translateY(-20px);
+}
+/************pricing css end********************************/
+
+/************customer feedback start ********************************/
+.happyclients{
+	width: 100%;
+	min-height: 100vh;
+	padding: 80px 0; 
+}
+.happyclients .box{
+	text-align:center;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+.happyclients .box:hover{
+	background: #16c9f6;
+}
+.happyclients .box:hover p{
+	color: #fff;
+}
+
+.happyclients  .carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom:-60px!important;
+}
+.happyclients  .carousel-indicators li{
+	background-color:#16c9fc!important; 
+}
+.happyclients  .box a {
+	position: relative;
+
+}
+.happyclients  .box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.happyclients  .box a:after{
+	content: "\f10d";
+	font-family: "FontAwesome";
+	width: 40px;
+	height: 40px;
+	background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+	color: white;
+	position: absolute;
+	top:120%;
+	left:70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.happyclients  .box h1{
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 10px;
+}
+.happyclients .box h2{
+	font-size: 13px;
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 20px;
+
+}
+/************customer feedback end ********************************/
+
+/************Contact us start**************************************/
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	position: relative;
+}
+.contactus:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background:linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+	z-index: -1;
+}
+.contactus .form-button button{
+	border:1px solid #50d1c0;
+	border-radius:100px;
+	padding: 0px 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	background: transparent;
+} 
+form:hover .form-button button{
+	background: #fff;
+	color: #50d1c0;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+	font-size: 0.85rem;
+}
+/************Contact us end**************************************/
+
+/************News letter Start**************************************/
+.newsletter{
+	width: 100%;
+	height: auto;
+	margin:80px auto;
+}
+.newsletter .news-input{
+	border-radius: 100px 0px 0px 100px!important;
+	min-width: 150px;
+	min-width: 45px;
+}
+.newsletter .input-group-text{
+	color: #fff!important;
+	background: #5bc0de!important;
+	border-radius: 0 100px 100px 0!important;
+	min-width: 130px;
+	min-height: 35px;
+}
+/************News letter End****************************************/
+
+/************footer starts****************************************/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding:70px 0 20px 0;
+	background: #00abff;
+	position: relative;
+}
+.footersection p{
+	color: #fff;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight:400;
+	color: #fff;
+}
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.footersection .news-input{
+	border-radius: 100px 0px 0px 100px!important;
+	min-width: 150px;
+	min-width: 45px;
+}
+.footersection .input-group-text{
+	color: #fff!important;
+	background: #5bc0de!important;
+	border-radius: 0 100px 100px 0!important;
+	min-width: 130px;
+	min-height: 35px;
+}
+#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	background: #00abff;
+	padding: 10px;
+	border-radius: 50%;
+}
+#myBtn:hover{
+	background:#606060;
+	cursor: pointer;
+}
+.footersection li a i{
+	color:#fff;
+}
+
+.footersection .child1 {
+
+}
+.footersection .child1 i{
+
+	display: flex;
+
+	align-items: center;
+
+}
+
+/************footer End ******************************************/
+
+
+/************login start********************** ******************************/
+.login{
+	width: 100%;
+	min-height: 100vh;
+	padding:80px 0 ;
+	position: relative;
+}
+.login .login_main_div .div_one ,.login .login_main_div .div_two {
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.login .div_one{
+	width: 100%;
+	min-height: 300px;
+	height: auto;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/login_page/login_image.jpg ');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login .div_one .center_div{
+	position: absolute;
+	border: 2px solid #fff;
+	margin: 20px;
+	color:#fff!important;
+	padding: 10px;
+}
+.login .div_one .center_div p{
+	color: $fff!important;
+}
+
+.login .div_two{
+	padding: 20px 0;
+    background-color: #fff;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form{
+	width: 80%;
+	padding: 5% 5%;
+}
+
+.login i{
+	color:black;
+}
+
+.login .form-group{
+	position: relative;
+/*	background:blue;*/
+}
+.login .form-group input{
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	border-radius: 0px!important;
+	border-bottom: 1px solid rgb(0,0,0,0.8); 
+	box-shadow: none;
+/*	background-color:#f7f7f9!important;*/
+}
+
+.login .form-group label{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	transition: 0.4s !important;
+	padding: 8px 8px!important
+	z-index: -1;
+}
+.login .form-group input:focus ~ label,
+.login .form-group input:valid ~ label,
+.login .form-group label:hover,
+.login .form-group input:hover+label 
+  {
+	top: 0px;
+	left: 0px;
+	transform: translateY(-80%);
+
+}
+
+.login .form-group input:valid ~ label i,
+.login .form-group input:hover+label i {
+ 	
+}
+
+.login .form-group {
+	margin:25px 0 ;
+}
+.login [type="submit"]{
+	
+	border:none!important;
+	background:#16c9f6;
+	color: #fff;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
+	border-radius:2px!important;
+	letter-spacing:2px!important;
+
+}
+.login [type="submit"]:hover{
+	background-image: linear-gradient( 75.7deg,  #3b5999, #16c9f6 );
+}
+
+/************login end********************** ******************************/
+
+/****************common form start *****************************************/
+.commonform{
+	width: 100%;
+	height: auto;
+	background: #16c9f6;
+	padding: 50px 0;
+}
+.commonform form{
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2);
+    padding:20px 10px;
+	border-radius: 10px;
+}
+
+.commonform h1{
+	color: #fff;
+}
+
+.commonform button[type="submit"]{
+	background:#16c9fc;
+	color: #fff;
+	border-radius:5px;
+	padding: 12px 35px;
+	outline: none;
+	text-align: center;
+	letter-spacing: 1px;
+	border:1px solid #16c9f6;
+	transition: 0.5s  !important;
+}
+.commonform button[type="submit"]:hover{
+		color: #16c9f6;
+		background: #fff;
+		border:1px solid #16c9f6;
+}
+.commonform .input-group-prepend span{
+	background-color:#fff!important;
+}
+.commonform .input-group-text i{
+	color:#16c9f6;
+}
+
+
+/**********************common form end***************************************/
+
+/*****************  Image gallery start***************************/
+.imagegallery{
+	width:100%;
+	height: auto;
+	padding:50px 0;
+	background: #f1f1f2;
+}
+.imagegallery .headings{
+	margin-bottom: 30px;
+}
+.imagegallery .box17 img,{
+	border-radius: 0px!important;
+}
+.imagegallery .box17 {
+    box-shadow: 0 0 5px #f8f9fa;
+    text-align: center;
+    border-radius: 2px;
+}
+.imagegallery .icon li i{
+	color:#fff;
+}
+
+.imagegallery .box17 .icon li a:hover  {
+ 
+    background:#fff;
+
+}
+.imagegallery .box17 .icon li a:hover i  {
+ 
+    color:#16c9f6;
+    
+}
+
+
+@media(min-width:1200px)  and (max-width:2000px){
+	.imagegallery .container .row{
+		
+	}
+
+}
+
+/*****************  Image gallery end***************************/
+
+/**********************Pagination design part Start***************************/
+.pagination .page-item.active .page-link{
+	background-color:#16c9f6;
+	border-color:#16c9f6;
+	color: #fff;
+}
+.pagination .page-item .page-link{
+	color: #16c9f6;
+}
+/**********************Pagination design part End*****************************/
+
+
+/**************** Bootstrape TOSTE design start ***************  */  
+.toasts-top-right.fixed {
+    position: fixed;
+    top:5px;right: 0px;
+    padding:2px 2px!important;
+    z-index: +1000;
+    color: #fff;
+
+}
+
+/**************** Bootstrape TOSTE design end *******************  */  
+
+/*****************  others ui start **********************************/
+.other{
+	width: 100%;
+	height: auto;
+	padding:50px 5px;
+}
+.other .flex-wrap{
+	padding-bottom: 50px!important;
+}
+.other .flex-wrap button{
+	margin-top: 5px;
+}
+/*****************  others ui end **********************************/
+
+/***************** User profile start ****************************/
+.user_profile{
+	width: 100%;
+	height: auto;
+	padding:50px 0 ;
+	position: relative;
+	background: #f7f7f9;
+}
+.user_profile .profile-head {
+    transform: translateY(5rem)
+}
+
+.user_profile .cover {
+    background-image: url(../images/theme_images/profile_bg_image_imp.jfif);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.user_profile body {
+    background: #654ea3;
+    background: linear-gradient(to right, #e96443, #904e95);
+    min-height: 100vh
+}
+.user_profile .ushortinfo i{
+	color:#09162e;
+}
+
+@media(max-width: 800px){
+	.user_profile .ushortinfo {
+    	padding-top: 5rem!important;
+    	justify-content: center!important;
+	}
+}
+
+/***************** User profile end ******************************/
+
+
+
+
+/**********************smart-vizard-step start***************************************/
+
+
+
+ .smart-vizard-step .form-control:focus {
+     color: #495057;
+     background-color: #fff;
+     border-color: #80bdff;
+     outline: 0;
+     box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25)
+ }
+
+ .smart-vizard-step .btn-secondary:focus {
+     box-shadow: 0 0 0 0rem rgba(108, 117, 125, .5)
+ }
+
+ .smart-vizard-step .close:focus {
+     box-shadow: 0 0 0 0rem rgba(108, 117, 125, .5)
+ }
+
+ .smart-vizard-step .mt-200 {
+     margin-top: 200px
+ } 
+/**********************smart-vizard-step End***************************************/
+
+
+
+
+
+/****************media query for Small device  *****************************************/
+
+@media(max-width: 576px){
+	
+}
+
+
+
+/****************media query for Medium device  *****************************************/
+
+
+@media(min-width: 577px) and (max-width:991px){
+
+
+}
+
+
+
+/****************media query for Large  *****************************************/
+
+
+
+@media (min-width:992px)  and (max-width:2200px) {
+
+.commonform form{
+    padding: 30px 70px!important;
+  }
+

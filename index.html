@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet"  href="css/main css.css">
+ <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+ <link rel="stylesheet" type="text/css" href="css/image_gallery.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.0.2/sweetalert2.css" integrity="sha512-+h9ra6iu6KJZSagIStfWvrL3Gfo6N0VMvjwNl+RM1Ggs0r2Ee1c9D/AklThWh9DqOHyYpDPt0Hrli/3LNDf1xw==" crossorigin="anonymous" />
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" /> -->
+
+
+</head>
+<body>
+
+
+ <div class="header cssuser">
+   <nav class="navbar navbar-expand-lg fixed-top navbar-dark  ">
+    <div class="container text-uppercase p-2 ">
+          <a class="navbar-brand text-white" href="#">Good Vibes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto flex-wrap justify-content-center">
+      <li class="nav-item ">
+        <a class="nav-link button" href="#logindiv">Login</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+          <span class="notifi px-2 py-1">
+          <i class="fa fa-comment"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+          </span>
+        </a>
+        <div class="dropdown-menu">
+	      <a class="dropdown-item" href="#">Link 1</a>
+	      <a class="dropdown-item" href="#">Link 2</a>
+	      <a class="dropdown-item" href="#">Link 3</a>
+	    </div>
+      </li>
+    </ul>
+
+
+    <ul class="navbar-nav ml-auto flex-wrap justify-content-start">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#why-we">Why we</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#servicediv">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#project-worked">project worked</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing">Price</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#happyclients">Happy Clients</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contactid">Contact Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#commonform">Common Form</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#imagegallery">beautiful images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footerdiv">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a type="button" class="btn btn-primary" href="#exp_sweetalert2">Sweet alert example</a>
+      </li>
+      <li class="nav-item">
+        <a type="button" class="btn btn-primary" href="#user_profile_div">User Rrofile</a>
+      </li>
+      <li class="nav-item">
+        <a type="button" class="btn btn-primary" id=""></a>
+      </li>
+        
+      
+    
+      <li class="nav-item dropdown last">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">option 1</a>
+          <a class="dropdown-item" href="#">option 2</a>
+         
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<section class="header-section">
+    <div class="center-div">
+      <h1>Welcome to Good vibes</h1>
+      <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family we are here to provide platform to upload your Good  </p>
+      <div class="header_buttons">
+        <a href="#">Login</a>
+        <a href="#">register</a>
+      </div>
+    </div>
+</section>
+ </div>
+ <!-- ************************** Header part end ****************************************** -->
+
+<!-- ************************** three extra div start ************************************** -->
+<section class="header-extradiv" id="why-we">
+  <div class="container">
+    <div class="row">
+      <div class="extra-div col-lg-4 col-md-4 col-12">
+        <a href="" aria-hidden="true"><i class="fa-3x fa fa-desktop"></i></a>
+        <h2>Easy to use</h2>
+        <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family  </p>
+      </div>
+
+      <div class="extra-div col-lg-4 col-md-4 col-12">
+        <a href="" aria-hidden="true"><i class="fa-3x fa fa-trophy"></i></a>
+        <h2>Easy to use</h2>
+        <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family  </p>
+      </div>
+
+      <div class="extra-div col-lg-4 col-md-4 col-12">
+        <a href="" aria-hidden="true"><i class="fa-3x fa fa-magic"></i></a>
+        <h2>Easy to use</h2>
+        <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family
+        we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family  </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ************************** three extra div end ************************************** -->
+
+<!-- ************************** offer section start******************************** -->
+<section class="serviceoffers" id="servicediv">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">WHAT DO WE OFFER</h1>
+    <p class="text-center text-uppercase">subscription plan</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-10 offset-1 offset-md-0 offset-lg-0">
+        <div class="names my-3">
+          <h1>php</h1>
+          <div class="progress w-75">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:70%">70%</div>
+          </div>
+        </div>
+
+        <div class="names my-3">
+          <h1>css</h1>
+          <div class="progress w-75">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:80%">80%</div>
+          </div>
+        </div>
+
+        <div class="names my-3">
+          <h1>Bootstrape</h1>
+          <div class="progress w-75">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:60%">60%</div>
+          </div>
+        </div>
+
+        <div class="names my-3">
+          <h1>Bootstrape</h1>
+          <div class="progress w-75">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:60%">60%</div>
+          </div>
+        </div>
+
+        <div class="names my-3">
+          <h1>jquery</h1>
+          <div class="progress w-75">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:75%">65%</div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-lg-6 col-md-12 col-10 offset-1 offset-md-0 offset-lg-0 servicediv">
+        <div class="row">
+          <div class="col-lg-2 col-2 service-icons">
+            <i class="fa-3x fa fa-desktop"></i>
+          </div>
+          <div class="col-lg-10 col-10">
+            <h2>Good services</h2>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the  </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2 service-icons">
+            <i class="fa fa-3x fa-wifi" aria-hidden="true"></i>
+          </div>
+          <div class="col-lg-10 col-10">
+            <h2>Digital marketting</h2>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the  </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-2 service-icons">
+            <i class="fa-3x fa fa-phone"></i>
+          </div>
+          <div class="col-lg-10 col-10">
+            <h2>Support 24*7</h2>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the  </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+</section>
+<!-- ************************** offer section end******************** -->
+
+<!-- **********************project done start*********************** -->
+<section class="project-work" id="project-worked">
+    <div class="container heading text-center">
+      <p class="text-center font-weight-bold mb-5 text-uppercase">more then 50 website created</p>
+    </div>
+
+    <div class="container d-flex justify-content-around align-items-center text-center">
+      <div>
+        <h1 class="count">1500</h1>
+        <p>cms installation</p>
+      </div>
+      <div>
+        <h1 class="count">1200</h1>
+        <p>cms installation</p>
+      </div>
+      <div>
+        <h1 class="count">1300</h1>
+        <p>cms installation</p>
+      </div>
+
+    </div>
+
+
+</section>
+<!-- **********************project done start**************************** -->
+
+<!-- **********************our pricing start**************************** -->
+<section class="pricing" id="pricing">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold text-uppercase text-white">our best pricing</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="card text-center">
+          <div class="card-header">Basic</div>
+            <div class="one card-body">
+              <li>$<span class="money">20</span>/Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+            </div>
+          <div class="card-footer">
+            <a href="#">Purchase</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12 card-second">
+        <div class="card text-center">
+          <div class="card-header">Standard</div>
+            <div class="two card-body">
+              <li>$<span class="money">30</span>/Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+            </div>
+          <div class="card-footer">
+            <a href="#">Purchase</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <div class="card text-center">
+          <div class="card-header">Unlimited</div>
+            <div class="three card-body">
+              <li>$<span class="money">35</span>/Website</li>
+              <li>responsive Website Website Website Website Website Website Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+              <li>responsive Website</li>
+            </div>
+          <div class="card-footer">
+            <a href="#">Purchase</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- ***********************our pricing end  **************************** -->
+
+<!-- ***********************our customer feedback start  **************** -->
+<section class="happyclients" id="happyclients" >
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold text-uppercase">our happy clients</h1>
+    <p class="text-capitalize pt-1">our satisfied customer says</p>
+  </div>
+
+  <div class="carousel slide" id="demo" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner container">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/2.jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (3).png" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family</p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/2.jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family</p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (5).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mahir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (5).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mahir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (5).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mahir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (3).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (3).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+              <a href=""><img src="images/carousel_slider/photo (3).jpg" class="img-fluid img-thumbnail"></a>
+              <p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family memories with your friens & family </p>
+              <h1 class="text-capitalize">Mihir patel</h1>
+              <h2 class="text-capitalize">web devloper</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+</section>
+<!-- ***********************our customer feedback end   **** -->
+
+<!-- ***********************contach us start ***************************** -->
+<section class="contactus" id="contactid" >
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold text-uppercase">Contact us</h1>
+    <p class="">We're here to help and answer any question you might have.we look forward to hearing from you 😊</p>
+  </div>
+
+  <div class="container">
+  	<div class="row">
+  		<div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+  			<form action="/action_page.php">
+			  <div class="form-group">
+			    <input type="text" class="form-control" id="username" required autocomplete="off"  placeholder="Enter Your Name">
+			  </div>
+			  <div class="form-group">
+			    <input type="email" class="form-control" id="email" required autocomplete="off" placeholder="Enter Email">
+			  </div>
+			  <div class="form-group">
+			    <input type="number" class="form-control" id="mobile" required autocomplete="off" placeholder="Enter Mobile Numper">
+			  </div>
+			  <div class="form-group">
+				  <textarea class="form-control" rows="4" id="comment" placeholder="Enter Your Message"></textarea>
+			  </div>
+			  
+			  <div class="d-flex justify-content-center form-button">
+			  	<button type="submit" class="btn btn-primary">Submit</button>
+			  </div>
+			</form>
+  		</div>
+  	</div>
+  </div>
+</section>
+<!-- ***********************contach us end ******************************* -->
+
+<!-- ***********************news letter start ******************************* -->
+<section class="newsletter" id="newsletterid" >
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">SUBSCRIBE TO OUR NEWSLETTER</h1>
+  </div>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-lg-8 offset-lg-2 col-12">
+  			<div class="input-group mb-3">
+			   <input type="text" class="form-control news-input" placeholder="Your Email">
+			    <div class="input-group-append">
+			      <span class="input-group-text">Subscribe</span>
+			    </div>
+			</div>
+  		</div>
+  	</div>
+  </div>
+</section>
+<!-- ***********************news letter end ********************************* -->
+
+<!-- ***********************Login form start ********************************* -->
+<section class="login" id="logindiv" >
+  <div class="container headings text-center">
+    <h2 class="text-center font-weight-bold">Good Vibes</h2>
+  </div>
+  <div class="container">
+  	<div class="login_main_div">
+  		<div class="row justify-content-center">
+      <div class="div_one col-lg-5 col-md-12 col-12">
+      	<div class="center_div">
+      		<h2 class="text-center">Login</h2>
+      		<p class="text-center text-white text-uppercase">we sure you get amazing experince with us</p>
+      	</div>
+      </div>
+      <div class="div_two col-lg-4 .col-lg-offset-right-3 col-md-12 col-12">
+      	<form>
+		  <div class="form-group ">
+		    <input type="text" class="form-control" id="" required>
+		    <label for="exampleInputEmail1"><i class="fa fa-user mr-2"></i>User Name</label>
+		    <small class="form-text text-muted " style="margin-bottom:20px!important;"></small>
+		  </div>
+		  <div class="form-group">
+		    <input type="password" class="form-control" id="" required>
+		    <label for="exampleInputPassword1"><i class="fa fa-lock mr-2"></i>Password</label>
+		    <small class="form-text text-muted">We'll never share your email with anyone</small>
+		  </div>
+		  <button type="submit" class="btn">Login</button>
+		</form>
+      </div>
+
+    </div>
+  	</div>
+  </div>
+</section>
+<!-- ***********************Login form end ********************************* -->
+
+
+<!-- *****************common form start **********************************-->
+<section class="commonform" id="commonform" >
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">Common Form</h1>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form>
+          <div class="form-group">
+            <label for="inputEmail4">User name</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fa fa-user-o"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email" aria-label="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="mt-4 form-row justify-content-center" style="border-top:2px solid  rgb(0,0,0,0.2);">
+            <button type="submit" class="btn btn-primary mt-4">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- *****************common form end **********************************-->
+
+
+
+<!-- *****************Image Gallery Start**********************************-->
+<section class="imagegallery" id="imagegallery">
+   <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold text-uppercase"> Image Gallery </h1>
+    <p class="text-capitalize pt-1">It's Beautiful</p>
+  </div>
+  <div class="container">
+     <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/james-bold-Hg1rGuu9qGw-unsplash.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="F:/my_theme/images/main_header/james-bold-Hg1rGuu9qGw-unsplash.jpg" data-toggle="lightbox"  data-gallery="example-gallery" ><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                    <div class="box17" >
+                        <img src="../my_theme/images/main_header/about-bg.jpg" class="img-fluid" alt="" style="width: 100% !important;object-fit: cover;height: 200px;">
+                        <ul class="icon">
+                            <li><a href="../my_theme/images/main_header/about-bg.jpg" data-toggle="lightbox" data-gallery="example-gallery"><i class="fa fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-search"></i></a></li>
+                            
+                        </ul>
+                        <div class="box-content">
+                            <h3 class="title">Kristiana</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+                    </div>
+                </div>          
+     </div>
+  </div>
+    
+    <ul class="pagination pagination-lg flex-wrap justify-content-center my-5">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+
+
+</section>
+<!-- *****************Image Gallery End **********************************-->
+
+<!-- *****************  sweept alert exapmle start ************-->
+<section class="other" id="exp_sweetalert2">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">Sweet alert2</h1>
+    <p class="text-center font-weight-bold mb-5 text-uppercase">Examples</p>
+  </div>
+  <div class="container">
+    <div class="flex-wrap">
+      <button class="btn btn-primary" id="suretodelete">Sure want to delete</button>
+      <button class="btn btn-primary" id="modalwithimage">Modal with a custom image.</button>
+      <button class="btn btn-primary" id="custompaddingwithbg">Custom width, padding, background.</button>
+      <button class="btn btn-primary" id="chainingmodel">Chaining swal2 modals is easy
+      </button>
+      <button class="btn btn-primary" id="toastjssuccess">sweet alert  success 
+      </button>
+
+    </div>
+  </div>
+</section>
+<!-- *************** *** sweept alert exapmle end *************-->
+
+<!-- ***************** user profile start *******************-->
+<section class="user_profile" id="user_profile_div">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold">User profile</h1>
+    <p class="text-center font-weight-bold mb-5 text-uppercase">beautiful profile</p>
+  </div>
+
+  <div class="container my-5">
+    <div class="col-md-12 mx-auto">
+          
+      <div class="bg-white shadow rounded overflow-hidden">
+        <div class="px-4 pt-0 pb-4 cover">
+                  <div class="media align-items-end profile-head">
+                      <div class="profile mr-3"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="..." width="130" class="rounded mb-2 img-thumbnail" ><a href="#" class="btn btn-outline-dark btn-sm btn-block">Edit profile</a></div>
+                      <div class="media-body mb-5 text-white">
+                          <h4 class="mt-0 mb-0">Mihir kantilal patel</h4>
+                          <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i>New York</p>
+                      </div>
+                  </div>
+        </div>
+        <div class="bg-light p-4 d-flex justify-content-end text-center ushortinfo">
+                  <ul class="list-inline mb-0 mx-4">
+                      <li class="list-inline-item">
+                          <h5 class="font-weight-bold mb-0 d-block">215</h5><small class="text-muted">Photos</small>
+                      </li>
+                  </ul>
+                  <ul class="list-inline mb-0 mx-4">
+                      <li class="list-inline-item">
+                          <h5 class="font-weight-bold mb-0 d-block">215</h5><small class="text-muted">Photos</small>
+                      </li>
+                  </ul>   
+        </div>
+        <div class="px-4 py-3">
+                  <h5 class="mb-0">About</h5>
+                  <div class="p-4 rounded shadow-sm bg-light">
+                      <p class="font-italic mb-0">Web Developer</p>
+                      <p class="font-italic mb-0">Lives in New York</p>
+                      <p class="font-italic mb-0">Photographer</p>
+                  </div>
+        </div>
+        <div class="px-4 py-3 bg-warning">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#me_up_images">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#me_up_album">Your Album</a>
+            </li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container active" id="me_up_images">
+              
+            </div>
+            <div class="tab-pane container fade" id="me_up_album">asgsgsdg</div>
+          </div>
+        </div>
+        <div class="py-4 px-4">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <h5 class="mb-0">Recent photos</h5><a href="#" class="btn btn-link text-muted">Show all</a>
+          </div>
+          <div class="row">
+             
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ***************** user profile end *********************-->
+
+<!-- ***********************Footer Start ****************** -->
+<footer class="footersection" id="footerdiv">
+	<div class="container">
+		<div class="row bg">
+			<div class="col-lg-4 col-md-6 col-md-offset-3 col-12 footer-div">
+				<div>
+					<h3>ABOUT MIHIR</h3>
+					<p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family </p>
+        
+
+          <li>
+            <span class=" parent">
+              <div class="child1">
+                <a href="https://www.instagram.com/p/Bup6TXXh7IU/" data-toggle="lightbox" ><i class="fa fa-2x fa-instagram mr-4" style="color:#e4405f!important;"><span class="ml-2 text-white" style="font-size: 25px!important">MIHIR</span></i></a>
+              </div>
+             
+            </span>
+          </li>
+
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-md-offset-3 col-12 footer-div text-center">
+				<div>
+					<h3>NAVIGATION LINKS</h3>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Price</a></li>
+					<li><a href="#">About</a></li>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 col-12 footer-div">
+				<div>
+					<h3>NEWS LETTER</h3>
+					<p>we are here to provide platform to upload your Good Memories.you can also share your memories with your friens & family </p>
+					<div class="container newsletter-main">
+					  	<div class="row">
+					  		<div class="col-lg-12 col-12 ">
+					  			<div class="input-group mb-3">
+								   <input type="text" class="form-control news-input" placeholder="Your Email">
+								    <div class="input-group-append">
+								      <span class="input-group-text">Subscribe</span>
+								    </div>
+								</div>
+					  		</div>
+					  	</div>
+					 </div>
+				</div>
+			</div>
+		</div>
+		<div class="mt-5 text-center">
+			<p>© 2020 Mihir patel. All rights reserved ! this template made by Mihir patel by the help of THAPA TECHNICAL's Tutorial</p>
+		</div>
+		<div class="scrolltop float-right">
+			<i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+		</div>
+
+	</div>
+</footer>
+<!-- ***********************Footer End ********************************* -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="js/counterup/jquery.waypoints.min.js" ></script>
+<script src="js/counterup/jquery.counterup.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.0.2/sweetalert2.all.js" integrity="sha512-yh2JrR47XFqbuUptbD1vgJ13XXdoNukqb4m68Qj8CrKABV82tgddI8tXSJghrPXgc403K0z5U0FvW7PwVsiXPg==" crossorigin="anonymous"></script>
+
+<script src="js/themejs.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+
+
+
+<script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+              wrapping:false,
+            });
+
+        });
+
+</script>
+
+
+<script>
+   $('.count').counterUp({
+    delay:10,
+    time:2000
+    })
+  
+</script>
+
+<script>
+	//for scrolling button,bottom to top scroll
+	//Get the button:
+	mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+	  {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	  
+	}
+</script>
+
+<script>
+	/* for equal hight of card*/
+$(document).ready(function(){
+
+ if ($(window).width() >= 992) {
+    //alert('mote then 992 width');
+   var div1height=$('.pricing .one').height();
+    var div2height=$('.pricing .two').height();
+    var div3height=$('.pricing .three').height();
+    if(div1height >div2height && div1height > div3height ){
+        $('.pricing .one,.pricing .two,.pricing .three').css('height',div1height);
+    }else if(div2height > div1height && div2height > div3height){
+       $('.pricing .one,.pricing .two,.pricing .three').css('height',div2height);
+    }else{
+      $('.pricing .one,.pricing .two,.pricing .three').css('height',div3height);
+    }
+  }
+
+ 
+});
+</script>
+
+
+
+
+</body>
+</html>

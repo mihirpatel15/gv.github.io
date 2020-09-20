@@ -924,6 +924,9 @@ form:hover .form-button button{
     z-index: 0;
 }
 
+.small-box h1{
+	font-size: 1.50rem!important;
+}
 
 
 /***************** User profile end ******************************/

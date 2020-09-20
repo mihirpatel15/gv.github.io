@@ -105,8 +105,26 @@ $(document).ready(function(){
 	/*Toast js success toast*/
 	
 
+	/* user profile gallery start */
+	
+	$(document).ready(function(){
+	 	$(".user_profile .fancybox").fancybox({
+	        openEffect: "none",
+	        closeEffect: "none"
+	      
+	    });
+	    
+	    $(".user_profile .zoom").hover(function(){
+			
+			$(this).addClass('transition');
+		}, function(){
+	        
+			$(this).removeClass('transition');
+		});
+	});
+    
 
-
+	/* user profile gallery end */
 
 
 

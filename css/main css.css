@@ -926,7 +926,11 @@ form:hover .form-button button{
 
 .small-box h1{
 	font-size: 1.50rem!important;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
+
+
+
 
 
 /***************** User profile end ******************************/

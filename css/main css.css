@@ -872,8 +872,6 @@ form:hover .form-button button{
   transform: scale(1.1);
 }
 
-
-
 @media (max-width: 767.98px) {
   .small-box {
     text-align: center;
@@ -885,6 +883,47 @@ form:hover .form-button button{
     font-size: 12px;
   }
 }
+.small-box > .overlay,
+.small-box > .loading-img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.small-box .overlay {
+  border-radius: 0.25rem;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 50;
+}
+.small-box .overlay.dark {
+  background: rgba(0, 0, 0, 0.5);
+}
+.small-box .overlay.dark > .fa,
+.small-box .overlay.dark > .fas,
+.small-box .overlay.dark > .far,
+.small-box .overlay.dark > .fab,
+.small-box .overlay.dark > .glyphicon,
+.small-box .overlay.dark > .ion {
+  color: #ced4da;
+}
+
+.small-box .inner > h3,
+.small-box .inner > p {
+    color: #ffffff ;
+}
+
+.small-box .icon i{
+    color: rgba(0, 0, 0, 0.15);
+    z-index: 0;
+}
+
 
 
 /***************** User profile end ******************************/

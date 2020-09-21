@@ -128,7 +128,7 @@ $(document).ready(function(){
 
 /* for navbar colleps */
 	$(document).ready(function () {
-	  $(".navbar-nav li a").click(function(event) {
+	  $(".navbar-nav li .my-link").click(function(event) {
 	    $(".navbar-collapse").collapse('hide');
 	  });
 	});

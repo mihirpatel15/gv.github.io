@@ -63,7 +63,7 @@ i{
 	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/main_header/analise-benevides-2uRmUPEq22k-unsplash.jpg ');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: fixed;
+	background-position:fixed;
 	clip-path: polygon(100% 0%,100% 100%,0% 100%,0% 0%);
 	position: relative;
 }
@@ -86,11 +86,11 @@ i{
 	bottom:0%;
 	left:0%;
 	right: 0%;
-	opacity: 0.3;
+	opacity: 0.5;
 	z-index: -1;
 	position: absolute; 
-	/*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/	
-	background-color: #000000;
+	/*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/
+	background-color: #fff;
 }
 
 .header-section{

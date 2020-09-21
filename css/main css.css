@@ -734,7 +734,7 @@ form:hover .form-button button{
 	height: auto;
 	padding:50px 0 ;
 	position: relative;
-	background: #f7f7f9;
+
 }
 .user_profile .profile-head {
     transform: translateY(5rem)
@@ -757,15 +757,15 @@ form:hover .form-button button{
 .user_profile .user-about{
 
   	border-radius: 3px;
-    border: 1px solid rgb(0,0,0,0.3);
+    border: 1px solid #e9e9e9;
 }
  .nav-tabs {
-    border-bottom: 1px solid rgb(0,0,0,0.3)!important;
+    border-bottom: 1px solid #e9e9e9;
 } 
 
 .user_profile .nav-link.active {
   
-    border-color: rgb(0,0,0,0.3) rgb(0,0,0,0.3) #fff;
+    border-color: #e9e9e9 #e9e9e9 #fff;
 }
 
 .simple:hover{

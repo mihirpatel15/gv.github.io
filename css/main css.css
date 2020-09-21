@@ -1099,3 +1099,15 @@ form:hover .form-button button{
   }
 }
 
+
+
+
+/***************   height media query (not width)*************************/
+@media (max-height:400px){
+	.header-section h1 {
+    	font-size: 1.6rem;
+	}
+	.header-section .center-div p {
+	    font-size: 0.8rem;
+	}
+}

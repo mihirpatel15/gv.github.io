@@ -118,7 +118,7 @@ i{
 
 .header-section .header_buttons a{
 	border:1px solid #ffff;
-	border-radius:100px;
+	border-radius:5px;
 	padding: 0px 5px;
 	padding: 12px 35px;
 	outline: none;
@@ -127,12 +127,17 @@ i{
 	font-weight: 400;
 	line-height: 1.4;
 	text-align: center;
+	transition: 0.5s ease;
+	
+	background:rgb(265,265,265);
+	color: rgb(0,0,0,0.8);
+
 }
 .header-section .header_buttons a:hover{
-	color: #50d1c0;
-	background: #ffff;
+	color: rgb(0,0,0);
+	background: #DFE1E3;
 	text-decoration: none;
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	
 }
 .header-section .center-div p{
 	font-size: 1rem;
@@ -1086,17 +1091,28 @@ form:hover .form-button button{
 
 @media (min-width:992px)  and (max-width:2200px) {
 
-.commonform form{
-    padding: 30px 70px!important;
-  }
+   .commonform form{
+    	padding: 30px 70px!important;
+    }
   .navbar-nav a {
-  	font-size: 0.8rem;
-  	opacity: .9;
-  	font-weight: 500;
-  }
-  .navbar-nav a:hover {
-  	opacity: 1;
-  }
+	  	font-size: 0.8rem;
+	  	opacity: .9;
+	  	font-weight: 500;
+ 	}
+   .navbar-nav a:hover {
+  		opacity: 1;
+    }
+  	.header-section .center-div p {
+		font-size: 1.2rem;
+		word-spacing: 3px;
+		letter-spacing: 3px;
+		font-weight:200!important;
+	}
+	.header-section h1{
+		font-size: 3rem;
+
+	}
+
 }
 
 

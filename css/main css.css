@@ -864,6 +864,7 @@ form:hover .form-button button{
  	font-size: 1.1rem!important;
  	letter-spacing:1px;
  	line-height:1.5rem;
+ 	font-weight: 500;
 }
 
 .small-box > .small-box-footer {

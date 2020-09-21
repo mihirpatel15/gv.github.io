@@ -860,6 +860,9 @@ form:hover .form-button button{
 .small-box > .inner {
   padding: 10px;
 }
+.small-box > .inner h5{
+ 	font-size: 1.1rem!important;
+}
 
 .small-box > .small-box-footer {
   background: rgba(0, 0, 0, 0.1);

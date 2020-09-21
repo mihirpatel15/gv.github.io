@@ -126,8 +126,14 @@ $(document).ready(function(){
 
 	/* user profile gallery end */
 
+/* for navbar colleps */
+	$(document).ready(function () {
+	  $(".navbar-nav li a").click(function(event) {
+	    $(".navbar-collapse").collapse('hide');
+	  });
+	});
 
-
+/* for navbar colleps */
 
 
 

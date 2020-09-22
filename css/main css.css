@@ -63,7 +63,8 @@ i{
 	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url('../images/main_header/analise-benevides-2uRmUPEq22k-unsplash.jpg ');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: fixed;
+	/*background-position: fixed;*/
+	background-position: center;
 	clip-path: polygon(100% 0%,100% 100%,0% 100%,0% 0%);
 	position: relative;
 }
@@ -112,7 +113,7 @@ i{
 
 	.navbar .dropdown-menu a{
 		font-size: .8rem!important;
-		
+
 	}
 
 	.navbar  .navbar-nav li a,

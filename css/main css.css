@@ -94,6 +94,42 @@ i{
 	/*background-color: #000000;*/
 }
 
+@media (max-width:991px){
+	.navbar .navbar-collapse{
+		background: #ffff;
+		margin-top: 10px;
+		padding:10px 0;
+		transition: 0.3s ease;
+	}
+	.navbar .navbar-collapse ul
+	{
+		align-items: center!important;
+	}
+	.navbar .dropdown-menu a,
+	.navbar .dropdown{
+		text-align: center!important;
+	}
+
+	.navbar .dropdown-menu a{
+		font-size: .8rem!important;
+		
+	}
+
+	.navbar  .navbar-nav li a,
+	.navbar  .navbar-nav li a i{
+		color:#323232!important;
+		word-spacing: 2px;
+		letter-spacing: 1px;
+	}
+	.navbar-toggler:focus,
+	.navbar-toggler:active,
+	.navbar-toggler-icon:focus {
+	    outline: none;
+	    box-shadow: none;
+	}
+}
+
+
 .header-section{
 	width: 100%;
 	height: inherit;
@@ -858,7 +894,8 @@ form:hover .form-button button{
 
 
 
-/* ***********small box start **************************/
+		/*******small box start ***/
+
 .small-box {
   border-radius: 0.25rem;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -1029,39 +1066,13 @@ form:hover .form-button button{
 	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
 
-/* ***********small box start **************************/
+	/****small box start *****/
 
 
 
 /***************** User profile end ******************************/
 
 
-
-
-/**********************smart-vizard-step start***************************************/
-
-
-
- .smart-vizard-step .form-control:focus {
-     color: #495057;
-     background-color: #fff;
-     border-color: #80bdff;
-     outline: 0;
-     box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25)
- }
-
- .smart-vizard-step .btn-secondary:focus {
-     box-shadow: 0 0 0 0rem rgba(108, 117, 125, .5)
- }
-
- .smart-vizard-step .close:focus {
-     box-shadow: 0 0 0 0rem rgba(108, 117, 125, .5)
- }
-
- .smart-vizard-step .mt-200 {
-     margin-top: 200px
- } 
-/**********************smart-vizard-step End***************************************/
 
 
 

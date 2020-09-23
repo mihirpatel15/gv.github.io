@@ -154,7 +154,7 @@ i{
 }
 
 .header-section .header_buttons a{
-	border:1px solid #ffff;
+	border:1px solid rgb(0,0,0,0.7);
 	border-radius:5px;
 	padding: 0px 5px;
 	padding: 12px 35px;
@@ -166,7 +166,7 @@ i{
 	text-align: center;
 	transition: 0.5s ease;
 	
-	background:rgb(265,265,265);
+	background:rgb(265,265,265,0.7);
 	color: rgb(0,0,0,0.8);
 
 }
@@ -192,7 +192,6 @@ i{
 	margin: 100px 0;  
 	padding-top: 50px;
 	text-align: center;
-
 }
 
 .header-extradiv .extra-div{
@@ -206,6 +205,15 @@ i{
 .header-extradiv .extra-div:hover{
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 	transform: translateY(-20px);
+}
+@media(max-width: 768px){
+	.header-extradiv{
+		background: pink;
+	}
+	.header-extradiv .extra-div{
+		padding: 50px 5px !important;
+		
+	}
 }
 /************extra header div end ******************************/
 

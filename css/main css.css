@@ -213,7 +213,7 @@ i{
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
-/*small  less then 768 pixel */
+/*small  less then 768 pixel like mobile device */
 @media(max-width: 767px){
 	
 	.header-extradiv {
@@ -228,7 +228,7 @@ i{
 	}
 	
 }
-/* medium 768 - 991 */
+/* medium 768 - 991 like ipad */
 @media(min-width: 768px) and (max-width: 991px){
 	
 	.header-extradiv .extra-div-parent:hover {
@@ -268,10 +268,54 @@ i{
 	align-items: center;
 }
 .serviceoffers .progress{
-	height: 0.9rem!important;
-	margin-bottom: 25px!important;
-	background: #606060;
+	height: 1.1rem!important;
+	margin-bottom: 30px!important;
+	background: #dee2e6;
 }
+
+.serviceoffers .skills-parent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.serviceoffers .skills-child{
+	width: 75%;
+}
+.serviceoffers .servicediv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*small  less then 768 pixel like mobile device */
+@media(max-width: 767px){
+	
+	.serviceoffers .skills-child,
+	.servicediv .servicediv_child{
+		width: 100%;
+	}
+	.serviceoffers .skills-parent,
+	.serviceoffers .servicediv{
+		padding:20px 0;
+		
+	}
+}
+/* medium 768 - 991 like ipad */
+@media(min-width: 768px) and (max-width: 991px){
+	
+	.serviceoffers .skills-child,
+	.servicediv .servicediv_child{
+		width: 70%;
+		
+	}
+	.serviceoffers .skills-parent,
+	.serviceoffers .servicediv{
+		padding:20px 0;
+	}
+
+}
+
+
 /************service offer css  end ******************************/
 
 

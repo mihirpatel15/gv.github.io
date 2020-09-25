@@ -418,7 +418,6 @@ i{
 
 /*small  less then 768 pixel like mobile device */
 @media(max-width: 767px){
-
 	.pricing {
 		padding: 50px 5px;
 	}
@@ -428,9 +427,10 @@ i{
 	.pricing .card-second{
 		transform:none;
 	}
-	.pricing .card:hover{
+	.pricing .card:hover,
+	.pricing .card:hover .card-footer a{
 		transform: none;
-		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+		box-shadow:none;
 	}
 	.pricing:before{
 		background:#16c9f6;
@@ -439,7 +439,23 @@ i{
 	
 /* medium 768 - 991 like ipad */
 @media(min-width: 768px) and (max-width: 991px){
-
+	.pricing {
+		padding: 50px 5px;
+	}
+	.pricing .card{
+		margin-bottom: 20px;
+	}
+	.pricing .card-second{
+		transform:none;
+	}
+	.pricing .card:hover,
+	.pricing .card:hover .card-footer a{
+		transform: none;
+		box-shadow:none;
+	}
+	.pricing:before{
+		background:#16c9f6;
+	}
 }
 
 /************pricing css end********************************/

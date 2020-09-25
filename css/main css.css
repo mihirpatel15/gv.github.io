@@ -290,6 +290,9 @@ i{
 /*small  less then 768 pixel like mobile device */
 @media(max-width: 767px){
 	
+	.serviceoffers .headings {
+    	margin-bottom:0px!important;
+	}
 	.serviceoffers .skills-child,
 	.servicediv .servicediv_child{
 		width: 100%;
@@ -297,12 +300,14 @@ i{
 	.serviceoffers .skills-parent,
 	.serviceoffers .servicediv{
 		padding:20px 0;
-		
 	}
 }
 /* medium 768 - 991 like ipad */
 @media(min-width: 768px) and (max-width: 991px){
 	
+	.serviceoffers .headings {
+    	margin-bottom: 0px!important;
+	}
 	.serviceoffers .skills-child,
 	.servicediv .servicediv_child{
 		width: 70%;
@@ -348,6 +353,7 @@ i{
 	right: 0%;
 	z-index: -1;
 	background:linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+
 }
 .pricing .money{
 	font-size: 40px;
@@ -356,6 +362,7 @@ i{
 }
 .pricing .card{
 	transition: 0.4s ease; 
+
 
 }
 .pricing .card-header{
@@ -380,12 +387,12 @@ i{
 }
 
 .pricing .card-footer a{
-	border:1px solid #50d1c0;
+	border:1px solid #16c9f6;
 	border-radius:100px;
 	padding: 0px 5px;
 	padding: 12px 35px;
 	outline: none;
-	color: #50d1c0;
+	color: #16c9f6;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
@@ -393,7 +400,7 @@ i{
 }
 .pricing .card:hover .card-footer a{
 	color: #ffff;
-	background: #50d1c0 ;
+	background: #16c9f6 ;
 	text-decoration: none;
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -403,11 +410,22 @@ i{
 }
 
 .pricing .card:hover .card-header,.card:hover .money{
-	color: #50d1c0 ;
+	color: #16c9f6 ;
 }
 .pricing .card-second{
 	transform: translateY(-20px);
 }
+
+/*small  less then 768 pixel like mobile device */
+@media(max-width: 767px){
+
+}
+	
+/* medium 768 - 991 like ipad */
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
 /************pricing css end********************************/
 
 /************customer feedback start ********************************/

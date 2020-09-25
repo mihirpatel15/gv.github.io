@@ -343,6 +343,7 @@ i{
 	min-height: 100vh;
 	padding: 50px;
 	position: relative;
+
 }
 .pricing:before{
 	content: "";
@@ -362,7 +363,6 @@ i{
 }
 .pricing .card{
 	transition: 0.4s ease; 
-
 
 }
 .pricing .card-header{
@@ -419,6 +419,22 @@ i{
 /*small  less then 768 pixel like mobile device */
 @media(max-width: 767px){
 
+	.pricing {
+		padding: 50px 5px;
+	}
+	.pricing .card{
+		margin-bottom: 20px;
+	}
+	.pricing .card-second{
+		transform:none;
+	}
+	.pricing .card:hover{
+		transform: none;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	}
+	.pricing:before{
+		background:#16c9f6;
+	}
 }
 	
 /* medium 768 - 991 like ipad */

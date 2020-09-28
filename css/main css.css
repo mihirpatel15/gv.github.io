@@ -863,9 +863,9 @@ form:hover .form-button button{
 @media(max-width: 767px){
 	.contact-us .container{
 		padding: 0px;
-		margin-left: 0px!important;
-		margin-right: 0px!important;
-	
+		margin-left: -15px!important;
+		margin-right: -15px!important;
+		width: 100%!important;
 	}
 	.contact-us .contact-info{
 		

@@ -4,6 +4,9 @@ html {
 *{
 	margin:0;padding: 0;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;
 }
+input,textarea{
+	box-shadow: none!important;
+}
 a{
 	text-decoration: none;
 }
@@ -772,6 +775,8 @@ form:hover .form-button button{
 .contact-us{
 	width: 100%;
 	height: auto;
+	background:rgb(0,0,0,0.01);
+	padding:80px 20px;
 	
 }
 .contact-us .div_one,
@@ -786,9 +791,11 @@ form:hover .form-button button{
 .contact-us .div_one{
 	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
 	background-size: cover;
+		border-radius: 2px;
 }
 .contact-us .div_one_child{
 	padding:50px 30px!important;
+	border-radius: 2px;
 	background: rgba(255, 255, 255, 0.94);
 	width: 80%;
 }
@@ -807,7 +814,10 @@ form:hover .form-button button{
 	background: rgba(189, 189, 189, 0.25);
 	text-align: center;
 	margin:0 5px;
-
+	transition: 0.5s ease;
+}
+.contact-us .social-buttons ul li:hover{
+	background:#16c9f6;
 }
  .contact-us .social-buttons ul li:nth-child(1){
  	 margin: 0 0px!important;
@@ -816,14 +826,65 @@ form:hover .form-button button{
  	margin-bottom: 20px;
  	outline: none!important;
  }
- .contact-us .form-group input{
- 	height: 42px;
- 	border-radius: 5px;
- 	border: 1px solid grey;
+
+ .contact-us input, .contact-us textarea{
+ 	 border: 1px solid grey!important;
+ }
+  .contact-us label,  .contact-us  small{
+  	letter-spacing: 2px;
+  }
+  .contact-us input, .contact-us textarea,.contact-us button{
+  	border-radius: 2px;
  	font-size: 18px;
  	letter-spacing: 2px;
- 	padding-left: 54px;
+ 	padding-left: 20px;
+  }
+ .contact-us .form-group input,{
+ 	height: 42px;
  }
+ .contact-us button[type="submit"]{
+ 	background:#16c9f6;
+ 	padding: 10px 15px;
+ 	font-size: 18px;
+ 	letter-spacing: 2px;
+ 	border: 1px solid rgb(0,0,0,0.1);
+ }
+
+.contact-us button[type="submit"]:hover{
+	background: #ffff;
+	border: 1px solid #16c9f6;
+	color: #16c9f6;
+}
+/*.contact-us .jumbotron{
+	background:#16c9f6;
+	position: relative;
+}
+.contact-us .jumbotron:before{
+	position: absolute;
+	content: '';
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
+
+}
+.contact-us .jumbotron h1{
+	
+	color: #ffff!important;
+}
+*/
+.contact-us .jumbotron{
+	position: relative;
+
+}
+.contact-us .jumbotron-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: pink!important;
+}
+
 
 
 

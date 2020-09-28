@@ -575,7 +575,6 @@ i{
 .owl-carousel .foo h1,
 .owl-carousel  .foo h2{
 	margin-bottom: 0px!important;
-
 }
 
 .owl-carousel  .box:hover{
@@ -584,8 +583,6 @@ i{
 .owl-carousel .box:hover p{
 	color: #fff;
 }
-
-
 
 .owl-carousel   .carousel-indicators li{
 	background-color:#16c9f6!important; 
@@ -693,6 +690,7 @@ i{
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){
+
 	.carousel-2-owl{
 		min-height: auto;
 	}
@@ -719,6 +717,10 @@ i{
 	.owl-carousel .text-testimonial{
 		height: 150px!important;
 	}
+	.owl-carousel{
+		width:95%!important;
+	}
+
 }
 
 /************carousel-2-owl end ********************************/
@@ -741,18 +743,19 @@ i{
 	z-index: -1;
 }
 .contactus .form-button button{
-	border:1px solid #50d1c0;
+	border:1px solid #16c9f6;
 	border-radius:100px;
 	padding: 0px 5px;
 	padding: 12px 35px;
 	outline: none;
-	color: #50d1c0;
+	color: #16c9f6;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
 	text-align: center;
 	background: transparent;
 } 
+
 form:hover .form-button button{
 	background: #fff;
 	color: #50d1c0;
@@ -762,6 +765,86 @@ form:hover .form-button button{
 	font-size: 0.85rem;
 }
 /************Contact us end**************************************/
+
+
+
+/******************** contact-us two start **********************/
+.contact-us{
+	width: 100%;
+	height: auto;
+	
+}
+.contact-us .div_one,
+.contact-us .div_two{	
+	padding:50px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%!important;
+	
+}
+.contact-us .div_one{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
+	background-size: cover;
+}
+.contact-us .div_one_child{
+	padding:50px 30px!important;
+	background: rgba(255, 255, 255, 0.94);
+	width: 80%;
+}
+.contact-us .div_one_child p,
+.contact-us .div_one_child i{
+	font-size: 1rem!important;	
+	color: #444444!important;
+}
+
+.contact-us .social-buttons ul li{
+	position: relative;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background: rgba(189, 189, 189, 0.25);
+	text-align: center;
+	margin:0 5px;
+
+}
+ .contact-us .social-buttons ul li:nth-child(1){
+ 	 margin: 0 0px!important;
+ }
+
+ .contact-us .lead{
+ 	max-width: 760px;
+ }
+
+ .contact-us .jumbotron{
+ 	background: #ffff;
+ 	background-size: cover;
+ 	position: relative;
+ 	
+ 	background: #ffff;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;	
+
+ }
+
+.contact-us .jumbotron,
+.contact-us p{
+	color: #16c9f6!important;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+
+}
+.contact-us .jumbotron h1{
+	
+
+}
+
+
+
+
+
+/******************** contact-us two end **********************/
 
 /************News letter Start**************************************/
 .newsletter{

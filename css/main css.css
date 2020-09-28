@@ -784,7 +784,7 @@ form:hover .form-button button{
 	
 }
 .contact-us .div_one{
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
 	background-size: cover;
 }
 .contact-us .div_one_child{
@@ -812,33 +812,18 @@ form:hover .form-button button{
  .contact-us .social-buttons ul li:nth-child(1){
  	 margin: 0 0px!important;
  }
-
- .contact-us .lead{
- 	max-width: 760px;
+ .contact-us .form-group{
+ 	margin-bottom: 20px;
+ 	outline: none!important;
  }
-
- .contact-us .jumbotron{
- 	background: #ffff;
- 	background-size: cover;
- 	position: relative;
- 	
- 	background: #ffff;
- 	background-repeat: no-repeat;
- 	background-size: cover;	
-
+ .contact-us .form-group input{
+ 	height: 42px;
+ 	border-radius: 5px;
+ 	border: 1px solid grey;
+ 	font-size: 18px;
+ 	letter-spacing: 2px;
+ 	padding-left: 54px;
  }
-
-.contact-us .jumbotron,
-.contact-us p{
-	color: #16c9f6!important;
-	word-spacing: 1px;
-	letter-spacing: 1px;
-
-}
-.contact-us .jumbotron h1{
-	
-
-}
 
 
 

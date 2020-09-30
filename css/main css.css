@@ -4,7 +4,7 @@ html {
 *{
 	margin:0;padding: 0;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;
 }
-input,textarea{
+input,textarea,button{
 	box-shadow: none!important;
 }
 a{
@@ -792,11 +792,20 @@ form:hover .form-button button{
 	align-items: center;
 	padding:10px 0;
 
+	border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+
 }
 .contact-us .div_one{
 	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/main_header/wallpaperflare.com_wallpaper.jpg);
 	background-size: cover;
-	border-radius: 2px;
+	
+	border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
 }
 .contact-us .div_one_child{
 	padding: 2rem 2rem 1rem 2rem;
@@ -860,15 +869,21 @@ form:hover .form-button button{
 	border: 1px solid #16c9f6;
 	color: #16c9f6;
 }
+
+@media(max-width: 576px){
+	.contact-us .div_one,
+	.contact-us .div_two{
+		border: none;
+	    box-shadow:none;
+	  
+	}
+}
 @media(max-width: 767px){
 	.contact-us{
 		padding: 0px 0px!important;
 		background: none;
 	}
-	.contact-us .div_one,
-	.contact-us .div_two{
-		border: none;
-	}
+	
 	
 	.contact-us .div_one_child {
 		width: 100%!important;
@@ -888,14 +903,13 @@ form:hover .form-button button{
 		border-radius: 5px 0 0 5px;
 		border:none!important;
 		 border: 1px solid rgba(0,0,0,0.2);
-    	 box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
-
+    	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 	}
 	.contact-us .div_two{
 		border-radius: 0 5px 5px 0;
 		border:none!important;
 		border: 1px solid rgba(0,0,0,0.2);
-    	 box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 	}
 
 }
@@ -913,16 +927,19 @@ form:hover .form-button button{
 	margin:80px auto;
 }
 .newsletter .news-input{
-	border-radius: 100px 0px 0px 100px!important;
-	min-width: 150px;
+	border-radius: 5px 0 0 5px!important;
 	min-width: 45px;
 }
 .newsletter .input-group-text{
 	color: #fff!important;
 	background: #5bc0de!important;
-	border-radius: 0 100px 100px 0!important;
+	border-radius: 0 5px 5px 0!important;
 	min-width: 130px;
 	min-height: 35px;
+}
+
+.newsletter input{
+	border: 1px solid rgb(0,0,0,0.1)!important;
 }
 /************News letter End****************************************/
 
@@ -1058,6 +1075,7 @@ form:hover .form-button button{
 
 .login .form-group{
 	position: relative;
+	margin:30px 0!important;
 /*	background:blue;*/
 }
 .login .form-group input{
@@ -1069,6 +1087,7 @@ form:hover .form-button button{
 	box-shadow: none;
 /*	background-color:#f7f7f9!important;*/
 }
+
 
 .login .form-group label{
 	top: 0px;
@@ -1099,16 +1118,36 @@ form:hover .form-button button{
 }
 .login [type="submit"]{
 	
-	border:none!important;
-	background:#16c9f6;
-	color: #fff;
-	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
-	border-radius:2px!important;
-	letter-spacing:2px!important;
+	
+
+	background: #16c9f6;
+    color: #ffff;
+    padding: 5px 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 2px!important;
 
 }
 .login [type="submit"]:hover{
-	background-image: linear-gradient( 75.7deg,  #3b5999, #16c9f6 );
+	background: #ffff;
+	border: 1px solid #16c9f6;
+	color: #16c9f6;
+}
+
+@media(max-width: 576px){
+	.login .div_one, .login .div_two{
+		border: none!important;
+	    box-shadow:none!important;
+	}
+	.login .form-group {
+		margin: 30px 0!important;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.login .form-group {
+		margin: 40px 0!important;
+	}
 }
 
 /************login end********************** ******************************/
@@ -1251,9 +1290,8 @@ form:hover .form-button button{
 }
 
 .user_profile .cover {
-    background-image: url(../images/theme_images/profile_bg_image_imp.jfif);
-    background-size: cover;
-    background-repeat: no-repeat
+   	background:#16c9f6; 
+   
 }
 
 .user_profile body {
@@ -1266,17 +1304,34 @@ form:hover .form-button button{
 }
 .user_profile .user-about{
 
-  	border-radius: 3px;
-    border: 1px solid #e9e9e9;
+  	border: 1px solid #16c9f6;
+    border-radius: 2px;
 }
- .nav-tabs {
-    border-bottom: 1px solid #e9e9e9;
-} 
+.user_profile .nav{
+	border-bottom: 1px solid #16c9f6;
+	
+}
+.user_profile .nav a{
+	color: #16c9f6;
+}
+ .user_profile .nav-link.active {
+ 	color: #ffff;
+ 	border:1px solid  #16c9fc!important;
+ }
+ .user_profile .nav-link.active {
+    background: #16c9f6!important;
+    border-radius: 2px;
 
-.user_profile .nav-link.active {
-  
-    border-color: #e9e9e9 #e9e9e9 #fff;
+} 
+.user_profile .btn-edit{
+	outline: none;
+	background: #16c9f6;
+	color:#ffffff;
+	border-radius: 2px!important;
 }
+
+
+
 
 .simple:hover{
 

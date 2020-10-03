@@ -55,7 +55,9 @@ nav .notifi{
 	word-spacing: 4px;
 }
 i{
-	color: #007bff;
+	/*color: #007bff;*/
+	color: #131418;
+
 
 }
 
@@ -951,7 +953,8 @@ form:hover .form-button button{
 	width: 100%;
 	height: auto;
 	padding:70px 0 20px 0;
-	background: #00abff;
+	/*background: #00abff;*/
+	background: #131418;
 	position: relative;
 }
 .footersection p{

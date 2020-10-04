@@ -144,10 +144,13 @@ $('.owl-carousel').owlCarousel({
     video:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            navText : ['<i class="fa fa-long-arrow-left " aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
+
         },
         600:{
-            items:2
+            items:2,
+             navText : ['<i class="fa fa-long-arrow-left " aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
         },
         1000:{
             items:3

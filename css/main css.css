@@ -949,11 +949,16 @@ form:hover .form-button button{
 }
 
 @media(max-width: 576px){
-	.contact-us .div_one,
+	
+	.contact-us .div_one{
+		border: none;
+	    box-shadow:none;
+	    border-radius: 2px 2px 0 0;
+	}
 	.contact-us .div_two{
 		border: none;
 	    box-shadow:none;
-	  
+	    border-radius: 0 0 2px 2px;
 	}
 	.contact-us .last-submit{
 		text-align: center;
@@ -1016,13 +1021,14 @@ form:hover .form-button button{
 	margin:80px auto;
 }
 .newsletter .news-input{
-	border-radius: 5px 0 0 5px!important;
+	border: 1px solid var(--theme-clr)!important;
+	border-right: 0!important;
 	min-width: 45px;
 }
 .newsletter .input-group-text{
 	color: #fff!important;
-	background: var(--theme-clr);
-	border-radius: 0 5px 5px 0!important;
+	background:var(--theme-clr);
+	border-radius: 0 2px 2px 0!important;
 	min-width: 130px;
 	min-height: 35px;
 }

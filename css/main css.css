@@ -1517,16 +1517,18 @@ form:hover .form-button button{
 .user_profile .nav a{
 	color: var(--theme-clr); 
 }
+.nav-tabs .nav-link {
+	border: 1px solid #ffff!important;
+}
  .user_profile .nav-link.active {
  	color: var(--theme-clr);
  	border:1px solid  var(--theme-clr)!important;
  	border-bottom: 2px solid #fff !important;
- }
- .user_profile .nav-link.active {
-    background: #ffff!important;
-    border-radius: 2px;
 
-} 
+ 	background: #ffff!important;
+    border-radius: 2px;
+ }
+
 .user_profile .btn-edit{
 	outline: none;
 	background: var(--theme-clr); 

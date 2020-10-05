@@ -138,22 +138,25 @@ $(document).ready(function(){
 /* owl carosol */
 $('.owl-carousel').owlCarousel({
     loop:false,
-    margin:10,
     nav:true,
-    dots: false,
-    video:true,
+   
+    lazyLoad: true,
+    
     responsive:{
         0:{
             items:1,
-            navText : ['<i class="fa fa-long-arrow-left " aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
+            nav:false,
+            navText : ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>'],
 
         },
         600:{
             items:2,
-             navText : ['<i class="fa fa-long-arrow-left " aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
+            nav:false,
+             navText : ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>'],
         },
         1000:{
-            items:3
+            items:3,
+             dots:false,
         }
         
     }

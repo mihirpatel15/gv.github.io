@@ -1623,7 +1623,7 @@ form:hover .form-button button{
 
 .small-box {
   
-  background:#ffff!important;
+  background:#c7ea46!important;
   display: block;
   margin-bottom: 20px;
   position: relative;
@@ -1642,7 +1642,7 @@ form:hover .form-button button{
  	letter-spacing:1px;
  	line-height:1.5rem;
  	font-weight: 500;
- 	color:#606060!important;
+ 	color:#212529!important;
 }
 .small-box small{
 	color: #606060!important;

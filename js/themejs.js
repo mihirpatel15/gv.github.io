@@ -165,10 +165,7 @@ $('.carousel-2-owl .owl-carousel').owlCarousel({
 $('.owl-carousel').owlCarousel({
     loop:false,
     autoplay:false,
-   
-  
     smartSpeed:200,
-
     nav:true,
     navText : ['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
     responsiveClass:true,

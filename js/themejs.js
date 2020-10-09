@@ -163,7 +163,7 @@ $('.carousel-2-owl .owl-carousel').owlCarousel({
 
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     autoplay:true,
     autoplayTimeout:5000,
     autoplayHoverPause:true,

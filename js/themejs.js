@@ -163,13 +163,8 @@ $('.carousel-2-owl .owl-carousel').owlCarousel({
 
 
 $('.owl-carousel').owlCarousel({
-<<<<<<< HEAD
-    loop:false,
-    autoplay:false,
-=======
     loop:true,
     autoplay:true,
->>>>>>> parent of af941cf... Revert "header slider done"
     autoplayTimeout:5000,
     autoplayHoverPause:true,
     smartSpeed:200,

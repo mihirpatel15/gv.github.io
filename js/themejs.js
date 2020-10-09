@@ -1,5 +1,5 @@
 
-$(document).ready(function(){ 
+$(document).ready(function(){
 
 	$('#suretodelete').click(function(){ /*  confirm delete start **/
      	Swal.fire({
@@ -136,9 +136,10 @@ $(document).ready(function(){
 /* for navbar colleps */
 
 /* owl carosol */
-$('.carousel-2-owl .owl-carousel').owlCarousel({
+$('.owl-carousel').owlCarousel({
     loop:false,
     nav:true,
+   
     lazyLoad: true,
     
     responsive:{
@@ -160,50 +161,6 @@ $('.carousel-2-owl .owl-carousel').owlCarousel({
         
     }
 })
-
-
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    smartSpeed:200,
-
-    nav:true,
-    navText : ['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1
-
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -721,6 +721,10 @@ i{
 	background:var(--theme-clr)!important;
 }
 
+.carousel-2-owl .owl-theme .owl-nav .disabled {
+	opacity:1!important;
+}
+
 
 
 .carousel-2-owl .owl-carousel .owl-nav button.owl-prev{
@@ -1822,14 +1826,40 @@ form:hover .form-button button{
 	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
 
-	/****small box start *****/
+	/****small box end *****/
 
 
 
 /***************** User profile end ******************************/
 
+/****************popular-images start ***************************************/
+.popular-images{
+	width: 100%;
+	height: auto;
+	margin-bottom: 90px;
+}
+.popular-images .my-box{
+	padding:10px;
+	margin: 0;
+}
+.popular-images .my-box-child{
+	overflow: hidden;
+}
+.popular-images img{
+	display:block;
+	width: 100%;
+	height: 250px;
+	border-radius: 2px;
+	object-fit: cover;
+	transition: .4s ease-in-out;
+}
+.popular-images img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.1); 
+}
 
 
+/****************popular-images end ***************************************/
 
 
 

@@ -470,6 +470,9 @@ i{
 	line-height: 1.4;
 	text-align: center;
 }
+.pricing .card:hover{
+	transform: translateY(-20px);
+}
 /*.pricing .card:hover .card-footer a{
 	color: #ffff;
 	background: var(--theme-clr) ;
@@ -479,9 +482,9 @@ i{
 	color:var(--theme-clr);
 	font-weight: 600;
 }*/
-.pricing .card-second{
+/*.pricing .card-second{
 	transform: translateY(-20px);
-}
+}*/
 
 /*small  less then 768 pixel like mobile device */
 @media(max-width: 767px){
@@ -815,17 +818,17 @@ i{
 
 	.carousel-2-owl .owl-carousel .owl-nav button.owl-next{
 		right: -4%;
-		background:var(--theme-clr)!important;
+		background:var(--clr-light)!important;
 		border-radius: 5px;
-		color:#ffff!important;
+		color:var(--theme-clr)!important;
 		font-size: 1.5rem!important;
 	}
 
 	.carousel-2-owl .owl-carousel .owl-nav button.owl-prev{
 		left: -4%;
-		background:var(--theme-clr)!important;
+		background:var(--clr-light)!important;
 		border-radius: 5px;
-		color:#ffff!important;
+		color:var(--theme-clr)!important;
 		font-size: 1.5rem!important;
 
 	}
@@ -1867,28 +1870,41 @@ form:hover .form-button button{
 
 
 
-/****************media query for Small device  *****************************************/
+/***************   height media query (not width)*************************/
+@media (max-height:400px){
+	.header-section h1 {
+    	font-size: 1.6rem;
+	}
+	.header-section .center-div p {
+	    font-size: 0.8rem;
+	}
+}
 
+
+
+
+
+
+
+
+/*extra small*/
 @media(max-width: 576px){
 	
 }
 
 
-
-/****************media query for Medium device  *****************************************/
-
-
-@media(min-width: 577px) and (max-width:991px){
+/*small*/
+@media(min-width: 577px) and (max-width:767px){
 
 
 }
 
+/*medium*/
+@media(min-width: 768px) and (max-width:991px){
 
 
-/****************media query for Large  *****************************************/
-
-
-
+}
+/*large*/
 @media (min-width:992px)  and (max-width:2200px) {
 
    .commonform form{
@@ -1917,20 +1933,11 @@ form:hover .form-button button{
 
 
 
+/* media query for large tablet(ipad pro) edujust 100vh height*/
 
-/***************   height media query (not width)*************************/
-@media (max-height:400px){
-	.header-section h1 {
-    	font-size: 1.6rem;
-	}
-	.header-section .center-div p {
-	    font-size: 0.8rem;
+@media(min-width:1000px) and (min-height:1000px){
+	.serviceoffers{
+		min-height: auto!important;
+		margin-bottom: 50px;
 	}
 }
-
-
-
-
-/*media query for adjust section's  height*/
-
-

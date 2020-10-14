@@ -950,6 +950,7 @@ form:hover .form-button button{
  }
  .contact-us input, .contact-us textarea{
  	 border: 1px solid grey!important;
+
  }
   .contact-us label,  .contact-us  small{
   	letter-spacing: 2px;
@@ -985,6 +986,7 @@ form:hover .form-button button{
 .contact-us input,
 .contact-us textarea{
 	border: 1px solid var(--theme-clr)!important;
+	background-color: inherit!important;
 }
 .contact-us label{
 	color: var(--theme-clr);
@@ -1016,9 +1018,10 @@ form:hover .form-button button{
 		padding: 1rem 0 0 1rem!important;
 	}
 	.contact-us .div_two {
-		border-left:    1px solid var(--theme-clr);
+		/*border-left:    1px solid var(--theme-clr);
 		 border-right:  1px solid var(--theme-clr);
-		 border-bottom: 1px solid var(--theme-clr);
+		 border-bottom: 1px solid var(--theme-clr);*/
+		 background-color: var(--clr-light);
 	}
 	.contact-us .last-submit{
 		text-align: center;

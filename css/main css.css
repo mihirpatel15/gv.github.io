@@ -1311,7 +1311,7 @@ form:hover .form-button button{
 	border-radius: 0px!important;
 	border-bottom: 1px solid rgb(0,0,0,0.8); 
 	box-shadow: none;
-/*	background-color:#f7f7f9!important;*/
+	background-color:inherit!important;
 }
 
 
@@ -1368,8 +1368,8 @@ form:hover .form-button button{
 		border: none!important;
 	    box-shadow:none!important;
 	    border-radius: 0 0 2px 2px!important;
-
-	    border: 1px solid var(--theme-clr)!important;
+	    background: var(--clr-light);
+	   /* border: 1px solid var(--theme-clr)!important;*/
 		border-top: 0!important;
 	}
 	.login .form-group {
@@ -1907,27 +1907,38 @@ form:hover .form-button button{
 /*large*/
 @media (min-width:992px)  and (max-width:2200px) {
 
-   .commonform form{
+	.dropdown,
+	.dropdown-menu {
+		transition: 0.9s ease!important;
+
+	}
+    .dropdown:hover > .dropdown-menu {
+    	transition: 0.9s ease;
+    	display: block;
+ 	}
+    .commonform form{
     	padding: 30px 70px!important;
     }
-  .navbar-nav a {
+   .navbar-nav a {
 	  	font-size: 0.8rem;
 	  	opacity: .9;
 	  	font-weight: 500;
  	}
-   .navbar-nav a:hover {
+    .navbar-nav a:hover {
   		opacity: 1;
     }
-  	.header-section .center-div p {
+  	
+	.header-section h1{
+		font-size: 3rem;
+
+	}
+	.header-section .center-div p {
 		font-size: 1.2rem;
 		word-spacing: 3px;
 		letter-spacing: 3px;
 		font-weight:200!important;
 	}
-	.header-section h1{
-		font-size: 3rem;
 
-	}
 
 }
 

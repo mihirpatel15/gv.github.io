@@ -167,6 +167,7 @@ $('.owl-carousel').owlCarousel({
     autoplay:false,
     smartSpeed:200,
     nav:true,
+    dots:true,
     navText : ['<i class="fa fa-long-arrow-left" aria-hidden="true"></i>','<i class="fa  fa-long-arrow-right" aria-hidden="true"></i>'],
     responsiveClass:true,
     responsive:{
@@ -184,6 +185,7 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+/* popular image ************* */
 
 
 

@@ -944,53 +944,6 @@ form:hover .form-button button{
 	transition: 0.5s ease;
 }
 
- .contact-us .form-group{
- 	margin-bottom: 20px;
- 	outline: none!important;
- }
- .contact-us input, .contact-us textarea{
- 	 border: 1px solid grey!important;
-
- }
-  .contact-us label,  .contact-us  small{
-  	letter-spacing: 2px;
-  }
-  .contact-us input, .contact-us textarea,.contact-us button{
-  	border-radius: 2px;
- 	font-size: 18px;
- 	letter-spacing: 2px;
- 	padding-left: 20px;
-  }
- .contact-us .form-group input,{
- 	height: 42px;
- }
- .contact-us button[type="submit"]{
- 	background: var(--theme-clr);
-    border: 0;
-    border-radius: 2px;
-    padding: 12px 35px;
-    outline: none;
-    color: #ffff;
-    transition: 0.5s;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.4;
-    text-align: center;
- }
-
-.contact-us button[type="submit"]:hover{
-	color: #ffff;
-	background: var(--clr-blue) ;
-	text-decoration: none;
-}
-.contact-us input,
-.contact-us textarea{
-	border: 1px solid var(--theme-clr)!important;
-	background-color: inherit!important;
-}
-.contact-us label{
-	color: var(--theme-clr);
-}
 
 @media(max-width: 576px){
 	
@@ -1046,14 +999,86 @@ form:hover .form-button button{
 		border: 1px solid rgba(0,0,0,0.2);
     	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 	}
+	.contact-us form{
+		width: 80%;
+	}
+	.contact-us .div_two .div_two_child{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
 }
 
-
-
-
-
 /******************** contact-us two end **********************/
+
+
+/*********** my-form-design start ***************************/
+
+.beautiful-form .form-group {
+    position: relative;
+    margin: 35px 0!important;
+
+}
+.beautiful-form .form-group input,
+.beautiful-form .form-group textarea
+{
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	border-radius: 0px!important;
+	border-bottom: 1px solid rgb(0,0,0,0.8); 
+	box-shadow: none;
+	background-color:inherit!important;
+}
+
+
+.beautiful-form .form-group label{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	transition: 0.4s !important;
+	padding: 8px 8px!important
+	z-index: -1;
+}
+.beautiful-form .form-group input:focus ~ label,
+.beautiful-form .form-group textarea:focus ~ label,
+
+.beautiful-form .form-group input:valid ~ label,
+.beautiful-form .form-group textarea:valid ~ label,
+
+.beautiful-form .form-group label:hover,
+
+.beautiful-form .form-group input:hover+label ,
+.beautiful-form .form-group textarea:hover+label 
+
+  {
+	top: 0px;
+	left: 0px;
+	transform: translateY(-80%);
+
+}
+.beautiful-form .form-group input:valid ~ label i,
+.beautiful-form  .form-group input:hover+label i {
+ 	
+}
+
+
+.beautiful-form [type="submit"]{
+
+    background: var(--theme-clr);
+    border: 0;
+    border-radius: 2px;
+    padding: 12px 35px;
+    outline: none;
+    color: #ffff;
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+/*********** my-form-design end** ***************************/
 
 /************News letter Start**************************************/
 .newsletter{

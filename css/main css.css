@@ -164,23 +164,25 @@ i{
 
 @media (max-width:991px){
 	.navbar .navbar-collapse{
-		background:#000;
-		color: #ffff!important;
+		min-height: 80vh;
+		background:var(--clr-light);
+		border-radius: 2px;
 		margin-top: 10px;
 		padding:10px 0;
-		transition: 0.3s ease;
+		transition: 0.1s ease!important;
 	}
 	.navbar .dropdown-menu{
 		background: inherit!important;
 	}
 	.navbar-nav .dropdown-menu a {
-    	color: #ffff!important;
+    	
 	}
 	.navbar  .navbar-nav li a,
 	.navbar  .navbar-nav li a i{
 		
 		word-spacing: 2px;
 		letter-spacing: 1px;
+		color: var(--theme-clr)!important;
 	}
 	.navbar .navbar-collapse ul
 	{

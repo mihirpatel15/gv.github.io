@@ -169,7 +169,8 @@ i{
 		border-radius: 2px;
 		margin-top: 10px;
 		padding:10px 0;
-		transition: 0.1s ease!important;
+		overflow-y: scroll !important;
+		max-height: 100px !important;
 	}
 	.navbar .dropdown-menu{
 		background: inherit!important;
@@ -1441,7 +1442,7 @@ form:hover .form-button button{
 	border: 1px solid rgba(0,0,0,0.2);
     box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2);
     padding:20px 10px;
-	border-radius: 10px;
+	border-radius: 2px;
 }
 
 .commonform h1{

@@ -59,6 +59,7 @@ nav .notifi{
 
 }
 
+
 .header-extradiv .extra-div h2, .servicediv h2{
 	font-size: 0.9rem;
 	margin: 20px 0 15px 0;
@@ -163,10 +164,23 @@ i{
 
 @media (max-width:991px){
 	.navbar .navbar-collapse{
-		background: #ffff;
+		background:#000;
+		color: #ffff!important;
 		margin-top: 10px;
 		padding:10px 0;
 		transition: 0.3s ease;
+	}
+	.navbar .dropdown-menu{
+		background: inherit!important;
+	}
+	.navbar-nav .dropdown-menu a {
+    	color: #ffff!important;
+	}
+	.navbar  .navbar-nav li a,
+	.navbar  .navbar-nav li a i{
+		
+		word-spacing: 2px;
+		letter-spacing: 1px;
 	}
 	.navbar .navbar-collapse ul
 	{
@@ -182,12 +196,7 @@ i{
 
 	}
 
-	.navbar  .navbar-nav li a,
-	.navbar  .navbar-nav li a i{
-		color:#323232!important;
-		word-spacing: 2px;
-		letter-spacing: 1px;
-	}
+	
 	.navbar-toggler:focus,
 	.navbar-toggler:active,
 	.navbar-toggler-icon:focus {

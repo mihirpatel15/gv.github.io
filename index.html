@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"> 
 </head>
-<body>
+<body onload="myFunctionpreloader()">
+<div id="loading"></div>
 
 <div class="header cssuser">
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -1278,6 +1279,18 @@
 <script src="js/owl.carousel.min.js"></script>
 
 
+<!-- for preloader  -->
+<script>
+   
+    var preloader = document.getElementById("loading");
+  
+      function myFunctionpreloader(){
+        preloader.style.display = 'none';
+      };
+      
+</script>
+
+
 
 <script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -1344,6 +1357,9 @@ $(document).ready(function(){
  
 });
 </script>
+
+
+
 
 
 

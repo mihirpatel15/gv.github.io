@@ -1,5 +1,5 @@
 :root{
-	--theme-clr:#000; 
+	--theme-clr:#000;  
 	
 	--clr-light:#f7f7f9;
 	--clr-blue:#0084ff;
@@ -34,15 +34,56 @@ p{
 	color: #606060;
 }
 
-#loading{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #fff
-	z-index: 99999;
-}
+
 .progress-bar{
 	background-color: var(--theme-clr)!important;
+}
+
+.popular-images img{
+	visibility: hidden;
+}
+.img-loader{
+
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+.img-loader:before{
+	/*background-image: linear-gradient(-20deg, #c71d6f 50%, var(--theme-clr) 50%);*/
+	content: '';
+	position: absolute;
+	display: block;
+	height: 100px;
+	width:100px;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	border: 1px solid var(--clr-light);
+	border-top:1px solid var(--theme-clr);
+	z-index: -1;
+	
+	border-radius: 50%;
+	margin: auto;
+	animation:turn 2s linear infinite;
+	-webkit-animation:turn 2s linear infinite;
+}
+@keyframes turn{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes turn{
+	0%{
+		-webkit-transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 .navbar-nav  a{

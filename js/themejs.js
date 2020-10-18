@@ -107,31 +107,29 @@ $(document).ready(function(){
 
 	/* user profile gallery start */
 	
-	$(document).ready(function(){
-	 	$(".user_profile .fancybox").fancybox({
+
+	$(".user_profile .fancybox").fancybox({
 	        openEffect: "none",
 	        closeEffect: "none"
 	      
-	    });
-	    
-	    $(".user_profile .zoom").hover(function(){
-			
-			$(this).addClass('transition');
-		}, function(){
-	        
-			$(this).removeClass('transition');
-		});
 	});
+	    
+	$(".user_profile .zoom").hover(function(){	
+		$(this).addClass('transition');
+	}, function(){    
+		$(this).removeClass('transition');
+	});
+	
     
 
 	/* user profile gallery end */
 
 /* for navbar colleps */
-	$(document).ready(function () {
-	  $(".navbar-nav li .my-link").click(function(event) {
-	    $(".navbar-collapse").collapse('hide');
-	  });
+	
+	$(".navbar-nav li .my-link").click(function(event) {
+		$(".navbar-collapse").collapse('hide');
 	});
+	
 
 /* for navbar colleps */
 

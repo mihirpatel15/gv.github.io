@@ -534,6 +534,7 @@ i{
 .pricing .card:hover{
 	transform: translateY(-20px);
 }
+
 /*.pricing .card:hover .card-footer a{
 	color: #ffff;
 	background: var(--theme-clr) ;
@@ -1974,7 +1975,10 @@ form:hover .form-button button{
 
 /*extra small*/
 @media(max-width: 576px){
-	
+	.pricing .container.two{
+		padding-right: 5px;
+    	padding-left: 5px;	
+	}
 }
 
 

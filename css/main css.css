@@ -194,7 +194,7 @@ i{
 .header .owl-carousel .owl-dots{
    position: absolute;
   left: 50%;
-  bottom: 5px;
+  bottom: 10px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
 }

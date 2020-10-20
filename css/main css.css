@@ -198,6 +198,13 @@ i{
   transform: translate(-50%, -50%);
   margin: 0 auto;
 }
+.header .owl-theme .owl-dots .owl-dot span {
+  background: rgb(265,265,265,0.3)!important;
+}
+.header .owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff!important;
+}
 .header .item{
 	background:rgb(0,0,0);
 }

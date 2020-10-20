@@ -1332,15 +1332,15 @@ $(document).ready(function(){
 
  if ($(window).width() >= 992) {
     //alert('mote then 992 width');
-   var div1height=$('.pricing .one').height();
-    var div2height=$('.pricing .two').height();
-    var div3height=$('.pricing .three').height();
+   var div1height=$('.pricing .one.card-body').height();
+    var div2height=$('.pricing .two.card-body').height();
+    var div3height=$('.pricing .three.card-body').height();
     if(div1height >div2height && div1height > div3height ){
-        $('.pricing .one,.pricing .two,.pricing .three').css('height',div1height);
+        $('.pricing .one.card-body,.pricing .two.card-body,.pricing .three.card-body').css('height',div1height);
     }else if(div2height > div1height && div2height > div3height){
-       $('.pricing .one,.pricing .two,.pricing .three').css('height',div2height);
+       $('.pricing .one.card-body,.pricing .two.card-body,.pricing .three.card-body').css('height',div2height);
     }else{
-      $('.pricing .one,.pricing .two,.pricing .three').css('height',div3height);
+      $('.pricing .one.card-body,.pricing .two.card-body,.pricing .three.card-body').css('height',div3height);
     }
   }
 

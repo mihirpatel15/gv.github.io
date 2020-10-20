@@ -170,14 +170,18 @@ $('.owl-carousel').owlCarousel({
     responsiveClass:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:false,
 
         },
         600:{
-            items:1
+            items:1,
+            nav:false,
+
         },
-        1000:{
-            items:1
+        992:{
+            items:1,
+            dots:false,
         }
     }
 })

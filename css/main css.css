@@ -1662,13 +1662,12 @@ form:hover .form-button button{
   	.user_profile .rounded-nav .nav-link {
     	border-radius: 50rem !important;
   	}
-  	.user_profile .forshadow{
+  	.user_profile .forshadow,
+  	.user_profile .user-about{
   		box-shadow: none!important;
   		background: var(--clr-light)!important;
   	}
-  	.user_profile .tab-pane .container{
-		
-	}
+  
 
 }
 
@@ -1677,7 +1676,8 @@ form:hover .form-button button{
     	padding-top: 5rem!important;
     	justify-content: center!important;
 	}
-	.user_profile .forshadow{
+	.user_profile .forshadow,
+	.user_profile .user-about{
   		box-shadow: none!important;
   		background: var(--clr-light)!important;
   	}
@@ -1685,7 +1685,8 @@ form:hover .form-button button{
 }
 
 @media(min-width: 768px) and (max-width:991px){
-	.user_profile .forshadow{
+	.user_profile .forshadow,
+	.user_profile .user-about{
   		box-shadow: none!important;
   		background: var(--clr-light)!important;
   	}

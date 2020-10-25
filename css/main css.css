@@ -1614,29 +1614,48 @@ form:hover .form-button button{
 .user_profile .ushortinfo i{
 	color:#09162e;
 }
-.user_profile .user-about{
 
-  	border: 1px solid var(--theme-clr); 
-    border-radius: 2px;
-}
-.user_profile .nav{
-	border-bottom: 1px solid var(--theme-clr); 
-	
-}
-.user_profile .nav a{
-	color: var(--theme-clr); 
-}
-.nav-tabs .nav-link {
-	border: 1px solid #ffff!important;
-}
- .user_profile .nav-link.active {
- 	color: var(--theme-clr);
- 	border:1px solid  var(--theme-clr)!important;
- 	border-bottom: 2px solid #fff !important;
 
- 	background: #ffff!important;
-    border-radius: 2px;
- }
+.with-arrow .nav-link.active {
+  position: relative;
+}
+
+.with-arrow .nav-link.active::after {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--theme-clr);
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+
+/* lined tabs */
+
+.lined .nav-link {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link:hover {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link.active {
+  background: none;
+  color: #555;
+  border-color: var(--theme-clr);
+}
+.nav-pills .nav-link {
+  color: #555;
+}
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+
 
 .user_profile .btn-edit{
 	outline: none;

@@ -1642,15 +1642,23 @@ form:hover .form-button button{
 .user_profile .text-uppercase {
   letter-spacing: 0.1em;
 }
-
-
+@media(max-width: 380px){
+.user_profile img{
+		height: 120px!important;
+	}
+}
 @media(max-width: 576px){
   	.user_profile .ushortinfo {
     	padding-top: 5rem!important;
     	justify-content: center!important;
 	}
 	.user_profile img{
-		height: 120px!important;
+		height: 150px;
+	}
+	.user_profile .thumb.col-6,
+	.user_profile .thumb.col-md-4 {
+		padding-right: 5px;
+    	padding-left: 5px;
 	}
 
 	.user_profile .rounded-nav {

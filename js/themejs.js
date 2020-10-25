@@ -197,8 +197,12 @@ function percentage(num, per)
 }
           
 var new_height=percentage(user_profile_imgges_width, 70);
+if(new_height){
+	$('.user_profile .thumb img').css('height',new_height);
+	$('#home2').css('display','block');
+	
+}
 
-$('.user_profile .thumb img').css('height',new_height);
 
 
 

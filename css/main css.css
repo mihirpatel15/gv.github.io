@@ -238,9 +238,7 @@ i{
 	.navbar .dropdown-menu{
 		background: inherit!important;
 	}
-	.navbar-nav .dropdown-menu a {
-    	
-	}
+	
 	.navbar  .navbar-nav li a,
 	.navbar  .navbar-nav li a i{
 		
@@ -1626,10 +1624,8 @@ form:hover .form-button button{
 	 transition: 0.9s ease;
 }
 
-.user_profile .with-arrow .nav-link.active {
-  position: relative;
-}
 
+ /*user profile tab*/
 .user_profile .nav-pills .nav-link {
   color: #555;
   border: 0px;
@@ -1642,6 +1638,17 @@ form:hover .form-button button{
 .user_profile .text-uppercase {
   letter-spacing: 0.1em;
 }
+
+ /* user profile image dropdown*/
+.user_profile .a{
+	
+
+}
+.user_profile .thumb .dropdown {
+	
+
+}
+
 @media(max-width: 380px){
 .user_profile img{
 		height: 120px!important;

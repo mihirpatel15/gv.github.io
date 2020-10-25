@@ -187,7 +187,18 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-/* popular image ************* */
+/* auto image height image ************* */
+
+var user_profile_imgges_width=$('.user_profile .thumb.first').width();
+
+function percentage(num, per)
+{
+  return (user_profile_imgges_width/100)*per;
+}
+          
+var new_height=percentage(user_profile_imgges_width, 70);
+
+$('.user_profile .thumb img').css('height',new_height);
 
 
 

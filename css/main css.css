@@ -1520,8 +1520,11 @@ form:hover .form-button button{
 	padding:80px 0;
 	background: var(--clr-light);
 }
-.imagegallery .box17 img,{
+.imagegallery .box17 img{
 	border-radius: 0px!important;
+	object-fit: cover; height: 200px; width: 100% !important; visibility: visible;
+
+
 }
 .imagegallery .box17 {
     box-shadow: 0 0 5px #f8f9fa;
@@ -1639,7 +1642,22 @@ form:hover .form-button button{
   letter-spacing: 0.1em;
 }
 
- /* user profile image dropdown*/
+	/* user profile overlay buttom on image*/
+.user_profile .my-box {
+	position:relative;
+
+}
+
+.user_profile .my-box .overlay-button{
+	background: rgb(265,265,265,0.5);
+	position: absolute;
+	right: 20px;top: 20px;
+	height: auto;width: auto;
+	padding: 0 5px;
+
+}
+
+	/* user profile image dropdown*/
 
 
 @media(max-width: 576px){
@@ -1648,10 +1666,10 @@ form:hover .form-button button{
     	justify-content: center!important;
 	}
 	.user_profile img{
-		height: 150px;
+		
 	}
-	.user_profile .thumb.col-6,
-	.user_profile .thumb.col-md-4 {
+	.user_profile .my-box.col-6,
+	.user_profile .my-box.col-md-4 {
 		padding-right: 5px;
     	padding-left: 5px;
 	}
@@ -1700,53 +1718,12 @@ form:hover .form-button button{
 /* **********user profile gallery start **********/
 
 
-.user_profile #demo {
-  height:100%;
-  position:relative;
-  overflow:hidden;
-}
 
 
-.user_profile .green{
-  background-color:#6fb936;
-}
-.user_profile .thumb{
-            margin-bottom: 30px;
-        }
-        
-.user_profile .page-top{
-            margin-top:85px;
-        }
 
-   
-.user_profile img.zoom {
-    width: 100%;
-    height: 200px;
-    border-radius:2px;
-    object-fit:cover;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-}
-        
- 
-.user_profile .transition {
-    -webkit-transform: scale(1.2); 
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-.user_profile .modal-header {
-   
-     border-bottom: none;
-}
-.user_profile .modal-title {
-        color:#000;
-    }
-.user_profile .modal-footer{
-      display:none;  
-    }
+
+     
+
 
 
 
@@ -1836,7 +1813,7 @@ form:hover .form-button button{
 
 	.dropdown,
 	.dropdown-menu {
-		transition: 0.9s ease!important;
+		/*transition: 0.9s ease!important;*/
 
 	}
     .dropdown:hover > .dropdown-menu {

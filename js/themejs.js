@@ -189,18 +189,18 @@ $('.owl-carousel').owlCarousel({
 
 /* auto image height according width ************* */
 
-var user_profile_imgges_width=$('.user_profile .thumb.first').width();
+
+var user_profile_imgges_width=$('.user_profile .tab-one .my-box:nth-child(1)').width();
 
 function percentage(num, per)
 {
   return (user_profile_imgges_width/100)*per;
 }
           
-var new_height=percentage(user_profile_imgges_width, 70); /* 70 percentage height*/
+var new_height=percentage(user_profile_imgges_width, 80); /* 70 percentage height*/
+/*alert(new_height);*/
 if(new_height){
-	$('.user_profile .thumb img').css('height',new_height);
-
-	
+	$('.user_profile .tab-one .my-box img').css('height',new_height);
 }
 
 

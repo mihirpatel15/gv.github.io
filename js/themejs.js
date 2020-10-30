@@ -189,7 +189,6 @@ $('.owl-carousel').owlCarousel({
 
 /* auto image height according width ************* */
 
-
 var user_profile_imgges_width=$('.user_profile .tab-one .my-box:nth-child(1)').width();
 
 function percentage(num, per)
@@ -202,6 +201,8 @@ var new_height=percentage(user_profile_imgges_width, 80); /* 70 percentage heigh
 if(new_height){
 	$('.user_profile .tab-one .my-box img').css('height',new_height);
 }
+
+
 
 
 

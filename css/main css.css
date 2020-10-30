@@ -15,6 +15,10 @@ html {
 input,textarea,button{
 	box-shadow: none!important;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+	background: var(--theme-clr);
+}
 a{
 	text-decoration: none;
 }
@@ -86,11 +90,11 @@ p{
 	}
 }
 
-.navbar-nav  a{
+/*.navbar-nav  a{
 	color: #fff!important;
-}
+}*/
 .navbar-nav .dropdown-menu  a{
-	color: #000000!important;
+	/*color: #000000!important;*/
 }
 nav .fa{
 	color: #fff;
@@ -223,6 +227,9 @@ i{
 	position: absolute; 
 	/*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/	
 	/*background-color: #000000;*/
+}
+.navbar-nav .nav-link{
+	color: #ffff!important;
 }
 
 @media (max-width:991px){
@@ -1654,7 +1661,13 @@ form:hover .form-button button{
 	right: 20px;top: 20px;
 	height: auto;width: auto;
 	padding: 0 5px;
+	cursor: pointer;
 
+}
+
+  /*user profile tab 2 list(album name) */
+.user_profile .tab-two ul li{
+	border-radius: 2px;
 }
 
 	/* user profile image dropdown*/
@@ -1665,9 +1678,7 @@ form:hover .form-button button{
     	padding-top: 5rem!important;
     	justify-content: center!important;
 	}
-	.user_profile img{
-		
-	}
+	
 	.user_profile .my-box.col-6,
 	.user_profile .my-box.col-md-4 {
 		padding-right: 5px;
@@ -1684,6 +1695,11 @@ form:hover .form-button button{
   	.user_profile .user-about{
   		box-shadow: none!important;
   		background: var(--clr-light)!important;
+  	}
+  	.user_profile .tab-two ul li{
+  		border-radius: 2px;
+  		background: inherit;
+ 		border:none;
   	}
   
 
@@ -1811,13 +1827,13 @@ form:hover .form-button button{
 /*large*/
 @media (min-width:992px)  and (max-width:2200px) {
 
-	.dropdown,
-	.dropdown-menu {
-		/*transition: 0.9s ease!important;*/
-
+	
+	.header .dropdown-menu{
+		
+		background: pink!important;
 	}
-    .dropdown:hover > .dropdown-menu {
-    	transition: 0.9s ease;
+    .header .dropdown:hover > .dropdown-menu {
+    	
     	display: block;
  	}
     .commonform form{

@@ -1701,6 +1701,10 @@ form:hover .form-button button{
   		background: inherit;
  		border:none;
   	}
+  	.user_profile .tab-two .badge{
+  		background: var(--theme-clr);
+  		color: #ffff;
+  	}
   
 
 }

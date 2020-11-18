@@ -16,9 +16,24 @@ input,textarea,button{
 	box-shadow: none!important;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-	background: var(--theme-clr);
+@media(max-width: 991px){
+	.dropdown-item.active, .dropdown-item:active {
+		background:none;
+		color: pink!important;
+		
+	}
 }
+@media (min-width: 992px){
+	.dropdown-item.active, .dropdown-item:active {
+		background: var(--theme-clr);
+		color:#fff!important;
+	}
+	.navbar .dropdown-menu {
+		background: #ffff;
+		border-radius: 2px;
+	}
+}
+
 a{
 	text-decoration: none;
 }
@@ -90,27 +105,7 @@ p{
 	}
 }
 
-/*.navbar-nav  a{
-	color: #fff!important;
-}*/
-.navbar-nav .dropdown-menu  a{
-	/*color: #000000!important;*/
-}
-nav .fa{
-	color: #fff;
-}
-nav .notifi{
-	position: relative;
-	color: yellow;
-}
-.navbar-badge {
-    font-size: .6rem;
-    font-weight: 300;
-    position: absolute;
-    right: 5%;
-    top: 10%;
 
-}
 
 
 .header-extradiv .extra-div h2, .servicediv h2{
@@ -228,6 +223,22 @@ i{
 	/*background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);*/	
 	/*background-color: #000000;*/
 }
+
+nav .fa{
+	color: #fff;
+}
+nav .notifi{
+	position: relative;
+	color: yellow;
+}
+.navbar-badge {
+    font-size: .6rem;
+    font-weight: 300;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+
+}
 .navbar-nav .nav-link{
 	color: #ffff!important;
 }
@@ -248,11 +259,12 @@ i{
 	
 	.navbar  .navbar-nav li a,
 	.navbar  .navbar-nav li a i{
-		
 		word-spacing: 2px;
 		letter-spacing: 1px;
-		color: var(--theme-clr)!important;
+		color:var(--theme-clr)!important;
 	}
+
+
 	.navbar .navbar-collapse ul
 	{
 		align-items: center!important;
@@ -1124,8 +1136,8 @@ form:hover .form-button button{
 
 .beautiful-form [type="submit"]{
 
-    background: var(--theme-clr);
-    border: 0;
+  /*  background: var(--theme-clr);*/
+    border: 1px solid  var(--theme-clr);
     border-radius: 2px;
     padding: 12px 35px;
     outline: none;
@@ -1135,7 +1147,22 @@ form:hover .form-button button{
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
+    z-index: 2;
+    position: relative;
 }
+
+.beautiful-form [type="submit"]:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: var(--theme-clr);
+	z-index: -1;
+
+}
+
 /*********** my-form-design end** ***************************/
 
 /************News letter Start**************************************/
@@ -1834,7 +1861,7 @@ form:hover .form-button button{
 	
 	.header .dropdown-menu{
 		
-		background: pink!important;
+		
 	}
     .header .dropdown:hover > .dropdown-menu {
     	
